@@ -1,6 +1,6 @@
-FROM tiangolo/uvicorn-gunicorn:python3.9-alpine3.14
+FROM bereydev/uvicorn-gunicorn:python3.11
 
-LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
+LABEL maintainer="Jonathan Bereyziat <contact@bereyziat.dev>"
 
 COPY requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir -r /tmp/requirements.txt

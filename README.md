@@ -681,7 +681,7 @@ If you need to run a Python script before starting the app, you could make the `
 #! /usr/bin/env bash
 
 # Run custom Python script before starting
-python /app/my_custom_prestart_script.py
+python3 /app/my_custom_prestart_script.py
 ```
 
 You can customize the location of the prestart script with the environment variable `PRE_START_PATH` described above.
